@@ -6,7 +6,7 @@ O objetivo do Pixel Adventure é fazer com que o personagem escape das armadilha
 ## Progresso
 Nível 2 do Play Adventure finalizado.
 
-### Funcionalidades
+### Funcionalidades Implementadas
 Foi implemenado novos desafios, tais com: 
 - plataformas que caem após 0.5s que o personagem pula em cima
 - espigões no chão caso o personagem caia, acionando assim o Game Over.
