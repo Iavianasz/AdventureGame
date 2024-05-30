@@ -4,8 +4,12 @@
 O objetivo do Pixel Adventure é fazer com que o personagem escape das armadilhas e recolha as frutas para ganhar pontos. 
 
 ## Progresso
-Nível 2 do Play Adventure finalizado. 
-Foi implemenado novos desafios, tais como, plataformas que caem após 0.5s que o personagem pula em cima e espigões no chão caso o personagem caia, acionando assim o Game Over.
+Nível 2 do Play Adventure finalizado.
+
+### Funcionalidades
+Foi implemenado novos desafios, tais com: 
+- plataformas que caem após 0.5s que o personagem pula em cima
+- espigões no chão caso o personagem caia, acionando assim o Game Over.
 
 ## Tecnologias e IDE Utilizadas
 - Unity
