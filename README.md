@@ -9,10 +9,11 @@ Em andamento
 ## Tecnologias e IDE Utilizadas
 - Unity
 - C#
+- Visual Studio Code
 - Visual Studio
 
 ## Controles do Jogo
-- **Tecla Enter:** Pular
+- **Tecla Espaço:** Pular
 - **Tecla Seta para direita:** Mover para direita
 - **Tecla Seta para a esquerda:** Mover para a esquerda
 
