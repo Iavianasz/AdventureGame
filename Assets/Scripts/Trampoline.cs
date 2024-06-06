@@ -16,6 +16,7 @@ public class Trampoline : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player")
         {
+            Debug.Log("Teste");
             anim.SetTrigger("jump");
             collision.gameObject.GetComponent<Rigidbody2D>().AddForce(new Vector2(0f, jumpForce), ForceMode2D.Impulse);
         }
