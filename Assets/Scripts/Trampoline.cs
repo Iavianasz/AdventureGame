@@ -19,6 +19,15 @@ public class Trampoline : MonoBehaviour
             Debug.Log("Teste");
             anim.SetTrigger("jump");
             collision.gameObject.GetComponent<Rigidbody2D>().AddForce(new Vector2(0f, jumpForce), ForceMode2D.Impulse);
+
+            StartCoroutine(DisableTrampoline());
         }
+    }
+
+    IEnumerator DisableTrampoline()
+    {
+        gameObject.GetComponent<BoxCollider2D>().enabled = false;
+        yield return new WaitForSeconds(0.5f);
+        gameObject.GetComponent<BoxCollider2D>().enabled = true;
     }
 }

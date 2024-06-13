@@ -11,6 +11,7 @@ public class GameController : MonoBehaviour
     public Text scoreText;
 
     public GameObject gameOver;
+    public AudioController audioController;
 
     public static GameController instance;
     
@@ -27,6 +28,7 @@ public class GameController : MonoBehaviour
     public void ShowGameOver()
     {
         gameOver.SetActive(true);
+        audioController.audioSourceMusicaDeFundo.Stop();
     }
 
     public void RestartGame(string lvlName)
